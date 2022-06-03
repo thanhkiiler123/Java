@@ -29,8 +29,8 @@ public class HinhChuNhat {
 	    public void nhap(){
 	        Scanner sc = new Scanner(System.in);
 	        System.out.print("Nhap chieu dai: ");
-	        dai=sc.nextFloat();
+	        setDai(sc.nextFloat());
 	        System.out.print("Nhap chieu rong: ");
-	        rong=sc.nextFloat();
+	        setRong(sc.nextFloat());
 	    }
 }

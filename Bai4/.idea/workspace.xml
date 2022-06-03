@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca8aef2c-2821-477a-a48b-7e8cb446bcae" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Bai3/Bai3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bai3/Bai3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bai3/out/production/Bai3/bai3/Bai3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Bai3/out/production/Bai3/bai3/Bai3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSHocSinh.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSHocSinh.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HocSinh.java" beforeDir="false" afterPath="$PROJECT_DIR$/HocSinh.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bai5/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bai5/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bai5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bai5/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bai6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bai6/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DeBai.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../DeBai.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../~$DeBai.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../~$DeBai.docx" afterDir="false" />
-    </list>
+    <list default="true" id="ca8aef2c-2821-477a-a48b-7e8cb446bcae" name="Changes" comment="chinh sua" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +23,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Workspace/Java/ThucHanhJava/Bai4"
+    "last_opened_file_path": "D:/Workspace/Java/ThucHanhJava/Bai5"
   }
 }]]></component>
   <component name="RunManager">
@@ -67,6 +55,29 @@
       <option name="presentableId" value="Default" />
       <updated>1653188991205</updated>
     </task>
+    <task id="LOCAL-00001" summary="chinh sua">
+      <created>1654243355210</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654243355210</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="chinh sua" />
+    <option name="LAST_COMMIT_MESSAGE" value="chinh sua" />
   </component>
 </project>
