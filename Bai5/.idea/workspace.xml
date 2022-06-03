@@ -1,13 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0290655c-0a7c-480c-9209-6c30f101a958" name="Changes" comment="" />
+    <list default="true" id="0290655c-0a7c-480c-9209-6c30f101a958" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Bai3/Bai3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bai3/Bai3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bai3/out/production/Bai3/bai3/Bai3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Bai3/out/production/Bai3/bai3/Bai3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bai4/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bai4/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bai4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bai4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bai4/DSHocSinh.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bai4/DSHocSinh.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeBai.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../DeBai.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../~$DeBai.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../~$DeBai.docx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="29VCkBRTIwxzqcqAtXQ7qzM6rWW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -15,7 +30,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/Workspace/Java/ThucHanhJava/Bai6"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

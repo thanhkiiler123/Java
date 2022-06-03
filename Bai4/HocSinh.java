@@ -47,21 +47,21 @@ public class HocSinh {
 	{
 		Scanner sc=new Scanner(System.in);
 		System.out.print("Ma hoc sinh:");
-		mahs=sc.nextLine();
+		setMahs(sc.nextLine());
 		System.out.print("ho ten:");
-		hoten=sc.nextLine();
+		setHoten(sc.nextLine());
 		System.out.print("lop:");
-		lop=sc.nextLine();
+		setLop(sc.nextLine());
 		System.out.print("so buoi an:");
-		soba=sc.nextInt();
+		setSoba(sc.nextInt());
 	}
 	public void xuat()
 	{
-		System.out.printf("\n%-20s%-20s%-20s%-20s",mahs,hoten,lop,soba);
+		System.out.printf("\n%-20s%-20s%-20s%-20s",getMahs(),getHoten(),getLop(),getSoba());
 	}
 	
 	public String toString() {
-		return "HocSinh [mahs=" + mahs + ", hoten=" + hoten + ", lop=" + lop + ", soba=" + soba + "]";
+		return "HocSinh [mahs=" + getMahs() + ", hoten=" + getHoten() + ", lop=" +getLop() + ", soba=" + getSoba() + "]";
 	}
 	public int tienbantru()
 	{

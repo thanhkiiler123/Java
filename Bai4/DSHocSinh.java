@@ -6,7 +6,7 @@ public class DSHocSinh {
 	
 	public DSHocSinh()
 	{
-		lisths =new ArrayList();
+		lisths = new ArrayList();
 	}
 	void nhap()
 	{
