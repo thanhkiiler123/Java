@@ -45,20 +45,20 @@ public class Bai3 {
 	public void nhap() {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Nhap do dai canh thu nhat cua tam giac: ");
-		a=sc.nextInt();
+		setA(sc.nextInt());
 		System.out.print("\nNhap do dai canh thu hai cua tam giac: ");
-		b=sc.nextInt();
+		setB(sc.nextInt());
 		System.out.print("\nNhap do dai canh thu ba cua tam giac: ");
-		c=sc.nextInt();
+		setC(sc.nextInt());
 	}
 	public void dienTich() {
-		if(a+b>c||a+c>b||b+c>a) {
-			p=(a+b+c)/2.0;
-			dt = Math.sqrt(p*(p-a)*(p-b)*(p-c));
-			System.out.printf("\nDien tich tam giac da nhap la: "+dt);
+		if(getA()+getB()>getC()||getA()+getC()>getB()||getB()+getC()>getA()) {
+			setP((getA()+getB()+getC())/2.0);
+			setDt(Math.sqrt(getP()*(getP()-getA())*(getP()-getB())*(getP()-getC())));
+			System.out.printf("\nDien tich tam giac da nhap la: "+getDt());
 		}
-		else if (a+b<=c||a+c<=b||b+c<=a)
-			System.out.print("Nhap sai dien tich tam giac, moi nhap lai.");
+		else if (getA()+getB()<=getC()||getA()+getC()<=getB()||getB()+getC()<=getA())
+			System.out.print("Nhap sai tam giac, moi nhap lai.");
 	}
 	public static void main (String[] args) {
 		Bai3 x = new Bai3();

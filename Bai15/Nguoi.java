@@ -33,17 +33,17 @@ public abstract class Nguoi implements Serializable{
 	public void nhap() {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Nhap ho ten: ");
-		hoten=sc.nextLine();
+		setHoTen(sc.nextLine());
 		System.out.print("Nhap nam sinh: ");
-		ns=Integer.parseInt(sc.nextLine());
+		setNs(Integer.parseInt(sc.nextLine()));
 		System.out.print("Nhap gioi tinh: ");
-		gt=sc.nextBoolean();
+		setGt(sc.nextBoolean());
 	}
 	public void xuat() {
-		System.out.print("Ho ten: "+hoten+"\n");
-		System.out.print("Nam sinh: "+ns+"\n");
+		System.out.print("Ho ten: "+getHoTen()+"\n");
+		System.out.print("Nam sinh: "+getNs()+"\n");
 		System.out.print("Gioi tinh: ");
-		if(gt==true) {
+		if(getGt()) {
 			System.out.print("Nam\n");
 		}
 		else {
@@ -51,6 +51,6 @@ public abstract class Nguoi implements Serializable{
 		}
 	}
 	public String toString() {
-		return "Nguoi: Ho ten: "+hoten+", Nam sinh: "+ns+", Gioi tinh: "+gt+",";
+		return "Nguoi: Ho ten: "+getHoTen()+", Nam sinh: "+getNs()+", Gioi tinh: "+getGt()+",";
 	}
 }

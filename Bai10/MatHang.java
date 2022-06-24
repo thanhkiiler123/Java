@@ -32,16 +32,16 @@ public class MatHang {
 	public void nhap() {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Nhap ten mat hang: ");
-		tenHang=sc.nextLine();
+		setTenHang(sc.nextLine());
 		System.out.print("Nhap ma mat hang: ");
-		maHang=Integer.parseInt(sc.nextLine());
+		setMaHang(Integer.parseInt(sc.nextLine()));
 		System.out.print("Nhap nuoc san xuat cua mat hang: ");
-		nuocSX=sc.nextLine();
+		setNuocSX(sc.nextLine());
 	}
 	public void xuat() {
-		System.out.printf("%-20s%-20s%-20s",tenHang,maHang,nuocSX);
+		System.out.printf("%-20s%-20s%-20s",getTenHang(),getMaHang(),getNuocSX());
 	}
 	public String toString() {
-		return "MatHang(ten: "+tenHang+",ma: "+maHang+",nuoc san xuat: "+nuocSX+")";
+		return "MatHang(ten: "+getTenHang()+",ma: "+getMaHang()+",nuoc san xuat: "+getNuocSX()+")";
 	}
 }		

@@ -4,10 +4,12 @@ public class ChuyenVien extends CanBo implements iCanBo {
 	protected String phong;
 	public ChuyenVien() {
 	}
-	public ChuyenVien(String hoten, int tuoi,double hsl,double luong, String phong) {
-		super();
-		this.phong=phong;
+
+	public ChuyenVien(String hoten, int tuoi, double hsl, double luong, String phong) {
+		super(hoten, tuoi, hsl, luong);
+		this.phong = phong;
 	}
+
 	public void setPhong(String phong) {
 		this.phong=phong;
 	}
@@ -18,15 +20,15 @@ public class ChuyenVien extends CanBo implements iCanBo {
 		super.nhap();
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Nhap so phong: ");
-		phong = sc.nextLine();
+		setPhong(sc.nextLine());
 	}
 	public void xuat() {
 		System.out.printf("%-20s%-20s%-20s%-20s\n","Ho Ten","Tuoi","He So Luong","Phong");
 		super.xuat();
-		System.out.printf("%-20s\n",phong);
+		System.out.printf("%-20s\n",getPhong());
 	}
 	public String toString() {
-		return super.toString()+"Phong: "+phong+".";
+		return super.toString()+"Phong: "+getPhong()+".";
 	}
 	@Override
 	public double tinhLuong() {

@@ -40,14 +40,14 @@ public class XeKhach extends Xe implements iXe{
 		super.nhap();
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Nhap so cho: ");
-		socho=sc.nextInt();
+		setSoCho(Integer.parseInt(sc.nextLine()));
 	}
 	public void xuat() {
 		super.xuat();
-		System.out.printf("So cho cua xe la: "+socho+"\n");
+		System.out.printf("So cho cua xe la: "+getSoCho()+"\n");
 	}
 	public String toString() {
-		return super.toString()+"So cho: "+socho+".";
+		return super.toString()+"So cho: "+getSoCho()+".";
 	}
 	public double tinhThue() {
 		vat=gia*10/100;

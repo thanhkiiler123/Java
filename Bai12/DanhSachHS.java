@@ -11,10 +11,10 @@ public class DanhSachHS {
 		System.out.print("Nhap so hoc sinh: ");
 		n=Integer.parseInt(sc.nextLine());
 		for(int i=0;i<n;i++) {
-		HocSinh a = new HocSinh();
-		System.out.println("\nNhap thong tin hoc sinh thu "+i);
-		a.nhap();
-		lisths.add(a);
+			HocSinh a = new HocSinh();
+			System.out.println("\nNhap thong tin hoc sinh thu "+i);
+			a.nhap();
+			lisths.add(a);
 		}
 	}
 	public void xuatDS() {

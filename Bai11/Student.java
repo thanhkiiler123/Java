@@ -25,20 +25,20 @@ public class Student extends Person {
 		Scanner sc=new Scanner(System.in);
 		super.nhap();
 		System.out.print("Nhap diem mon thu nhat: ");
-		diem1=Float.parseFloat(sc.nextLine());
+		setDiem1(Float.parseFloat(sc.nextLine()));
 		System.out.print("Nhap diem mon thu hai: ");
-		diem2=Float.parseFloat(sc.nextLine());
+		setDiem2(Float.parseFloat(sc.nextLine()));
 	}
 	public float tinhDTB() {
-		return ((diem1+diem2)/2);
+		return ((getDiem1()+getDiem2())/2);
 	}
 	public void xuat() {
 		super.xuat();
-		System.out.printf("\nDiem mon 1: "+diem1);
-		System.out.printf("\nDiem mon 2: "+diem2);
+		System.out.printf("\nDiem mon 1: "+getDiem1());
+		System.out.printf("\nDiem mon 2: "+getDiem2());
 		System.out.printf("\nDiem trung binh: "+tinhDTB()+"\n");
 	}
 	public String toString() {
-		return super.toString() + "\nDiem mon 1"+diem1+", diem mon 2"+diem2+", diem trung binh: "+tinhDTB()+".";
+		return super.toString() + "\nDiem mon 1"+getDiem1()+", diem mon 2"+getDiem2()+", diem trung binh: "+tinhDTB()+".";
 	}
 }

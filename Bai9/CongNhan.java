@@ -46,12 +46,11 @@ public class CongNhan {
 	public void nhap() {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Nhap He so luong: ");
-		hsl=sc.nextFloat();
-		sc.nextLine();
+		setHsl(Float.parseFloat(sc.nextLine()));
 		System.out.print("Nhap Ho ten: ");
-		hoten=sc.nextLine();
+		setHoTen(sc.nextLine());
 		System.out.print("Nhap muc phu cap: ");
-		pc=sc.nextFloat();
+		setPc(Float.parseFloat(sc.nextLine()));
 	}
 	public float luongT() {
 		return luongt=lcb*hsl;
@@ -60,7 +59,7 @@ public class CongNhan {
 		return luongs=hsl*lcb*(1+pc);
 	}
 	public void xuat() {
-		System.out.printf("%-20s%-20s%-20s%-20s\n",hsl,hoten,luongT(),luongS());
+		System.out.printf("%-20s%-20s%-20s%-20s\n",getHsl(),getHoTen(),luongT(),luongS());
 	}
 	public String toString() {
 		return "CongNhan(Ho ten: "+hoten+", He so luong: "+hsl+", LuongT: "+luongT()+", LuongS: "+luongS()+")\n";

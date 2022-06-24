@@ -33,8 +33,8 @@ public class XeTai extends Xe implements iXe{
 	public double tinhThue() {
 		vat=gia*10/100;
 		ttb=gia*2/100;
-		System.out.printf("Thue VAT cua xe tai la: "+vat);
-		System.out.printf("\nThue truoc ba cua xe la: "+ttb+"\n");
+		System.out.printf("Thue VAT cua xe tai la: "+getVat());
+		System.out.printf("\nThue truoc ba cua xe la: "+getTtb()+"\n");
 		return 0;
 	}
 }

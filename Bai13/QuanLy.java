@@ -33,19 +33,19 @@ public class QuanLy extends CanBo implements iCanBo {
 		super.nhap();
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Nhap ten khoa: ");
-		khoa = sc.nextLine();
+		setKhoa(sc.nextLine());
 		System.out.print("Nhap ten phong ban: ");
-		phongban=sc.nextLine();
+		setPhongBan(sc.nextLine());
 		System.out.print("Nhap he so phu cap: ");
-		hspc = sc.nextDouble();
+		setHspc(Double.parseDouble(sc.nextLine()));
 	}
 	public void xuat() {
 		System.out.printf("%-20s%-20s%-20s%-20s%-20s\n","Ho Ten","Tuoi","He So Luong","Phong ban","Khoa");
 		super.xuat();
-		System.out.printf("%-20s%-20s\n",phongban,khoa);
+		System.out.printf("%-20s%-20s\n",getPhongBan(),getKhoa());
 	}
 	public String toString() {
-		return super.toString()+"Phong ban: "+phongban+", khoa: "+khoa+", he so phu cap: "+hspc+".";
+		return super.toString()+"Phong ban: "+getPhongBan()+", khoa: "+getKhoa()+", he so phu cap: "+getHspc()+".";
 	}
 	@Override
 	public double tinhLuong() {

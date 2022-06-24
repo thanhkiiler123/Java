@@ -3,7 +3,7 @@ import java.util.*;
 public class DSCongNhan {
 	ArrayList<CongNhan>listcn;
 	public DSCongNhan(){
-		listcn = new ArrayList();
+		listcn = new ArrayList<>();
 	}
 	public void nhap() {
 		int n;
@@ -11,12 +11,12 @@ public class DSCongNhan {
 		System.out.println("Nhap so luong cong nhan: ");
 		n=sc.nextInt();
 		if (0<n&&n<20) {
-		for (int i=0;i<n;i++) {
-			CongNhan a = new CongNhan();
-			System.out.print("Nhap thong tin cong nhan thu: "+i);
-			a.nhap();
-			listcn.add(a);
-			}
+			for (int i=0;i<n;i++) {
+				CongNhan a = new CongNhan();
+				System.out.print("Nhap thong tin cong nhan thu: "+(i+1));
+				a.nhap();
+				listcn.add(a);
+				}
 		}
 		else 
 			System.out.print("So luong cong nhan khong vuot qua 20. Xin moi nhap lai: ");

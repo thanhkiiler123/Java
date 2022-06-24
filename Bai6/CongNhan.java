@@ -1,7 +1,6 @@
 package bai6;
 import java.util.Scanner;
 public class CongNhan {
-	private static float lcb=1150;
 	private float hsl,luong;
 	private String hoten;
 	public CongNhan(){
@@ -24,17 +23,19 @@ public class CongNhan {
 	public String getHoten() {
 		return hoten;
 	}
+
 	public float getLuong() {
-		return lcb*hsl;
+		float lcb = 1150;
+		return luong = lcb * hsl;
 	}
 	public void nhap() {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("\nHe so luong: ");
-			hsl=Float.parseFloat(sc.nextLine());
+			setHsl(Float.parseFloat(sc.nextLine()));
 		System.out.println("Ho ten: ");
-			hoten=sc.nextLine();	
+			setHoten(sc.nextLine());
 	}
 	public void xuat() {
-		System.out.printf("\n%-20s%-20s%-20s",hsl,hoten,getLuong());
+		System.out.printf("\n%-20s%-20s%-20s",getHsl(),getHoten(),getLuong());
 	}
 }

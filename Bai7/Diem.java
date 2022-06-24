@@ -24,15 +24,15 @@ public class Diem {
 	public void nhap() {
 		Scanner sc=new Scanner(System.in);
 		System.out.print("Hoanh do cua diem la: ");
-		x=sc.nextInt();
+		setX(sc.nextInt());
 		System.out.print("Tung do cua diem la: ");
-		y=sc.nextInt();
+		setY(sc.nextInt());
 	}
 	public void xuat() {
-		System.out.printf("("+x+","+y+")");
+		System.out.printf("("+getX()+","+getY()+")");
 	}
 	public String toString() {
-		return "Diem("+x+","+y+")";
+		return "Diem("+getX()+","+getY()+")";
 	}
 }
 

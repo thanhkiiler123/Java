@@ -2,9 +2,11 @@ package bai12;
 import java.util.*;
 public class Nguoi {
 	private String ht,gt;
-	public void ngUoi() {	
+
+	public Nguoi() {
 	}
-	public void ngUoi(String ht,String gt) {
+
+	public void Nguoi(String ht, String gt) {
 		this.ht=ht;
 		this.gt=gt;
 	}
@@ -23,15 +25,15 @@ public class Nguoi {
 	public void nhap() {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Nhap ho ten: ");
-		ht=sc.nextLine();
+		setHoTen(sc.nextLine());
 		System.out.print("Nhap gioi tinh: ");
-		gt=sc.nextLine();
+		setGt(sc.nextLine());
 	}
 	public void xuat() {
-		System.out.printf("Ho ten: "+ht);
-		System.out.printf("\nGioi tinh: "+gt);
+		System.out.printf("Ho ten: "+getHoTen());
+		System.out.printf("\nGioi tinh: "+getGt());
 	}
 	public String toString() {
-		return "Ho ten: "+ht+", gioi tinh: "+gt+".";
+		return "Ho ten: "+getHoTen()+", gioi tinh: "+getGt()+".";
 	}
 }

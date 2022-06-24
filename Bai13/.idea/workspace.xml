@@ -1,16 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="547dc19b-62a4-4f0e-b059-0ea5ff7232c0" name="Changes" comment="" />
+    <list default="true" id="547dc19b-62a4-4f0e-b059-0ea5ff7232c0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Bai4/out/production/Bai4/bai4/Bai4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bai7/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bai10/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bai10/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bai10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bai10/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bai10/MatHang.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bai10/MatHang.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bai10/TuLanh.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bai10/TuLanh.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bai11/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bai11/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bai11/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bai11/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bai11/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bai11/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bai11/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bai11/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bai11/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bai11/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bai11/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bai11/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bai12/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bai12/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bai12/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bai12/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bai12/DanhSachHS.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bai12/DanhSachHS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bai12/HocSinh.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bai12/HocSinh.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bai12/Nguoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bai12/Nguoi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CanBo.java" beforeDir="false" afterPath="$PROJECT_DIR$/CanBo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChuyenVien.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChuyenVien.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GiangVien.java" beforeDir="false" afterPath="$PROJECT_DIR$/GiangVien.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuanLy.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuanLy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bai3/Bai3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bai3/Bai3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bai3/out/production/Bai3/bai3/Bai3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Bai3/out/production/Bai3/bai3/Bai3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bai4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bai4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bai5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bai5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bai5/HinhChuNhatTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bai5/HinhChuNhatTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bai6/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bai6/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bai6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bai6/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bai6/CongNhan.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bai6/CongNhan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bai6/DSCongNhan.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bai6/DSCongNhan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bai7/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bai7/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bai7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bai7/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bai7/Diem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bai7/Diem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bai7/DoanThang.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bai7/DoanThang.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bai8/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bai8/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bai8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bai8/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bai8/TaiKhoan.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bai8/TaiKhoan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bai9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bai9/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bai9/CongNhan.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bai9/CongNhan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeBai.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../DeBai.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../~$DeBai.docx" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="29VDXB69dCfdPTtVpcuGNVofAlb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -18,7 +64,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/Workspace/Java/ThucHanhJava/Bai14"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

@@ -24,15 +24,15 @@ public class Person {
 	public void nhap() {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Nhap ho ten: ");
-		hoTen=sc.nextLine();
+		setHoTen(sc.nextLine());
 		System.out.print("Nhap dia chi: ");
-		diaChi=sc.nextLine();
+		setDiaChi(sc.nextLine());
 	}
 	public void xuat() {
 		System.out.printf("%-20s%-20s\n","Ho Ten","Dia Chi");
-		System.out.printf("%-20s%-20s",hoTen,diaChi);
+		System.out.printf("%-20s%-20s",getHoTen(),getDiaChi());
 	}
 	public String toString() {
-		return "Person(Hoten: "+hoTen+", Diachi: "+diaChi+",";
+		return "Person(Hoten: "+getHoTen()+", Diachi: "+getDiaChi()+",";
 	}
 }

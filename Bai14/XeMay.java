@@ -27,13 +27,13 @@ public class XeMay extends Xe implements iXe{
 		super.xuat();
 	}
 	public String toString() {
-		return super.toString()+"Thue VAT: "+vat+", Thue truoc ba: "+ttb+",";
+		return super.toString()+"Thue VAT: "+getVat()+", Thue truoc ba: "+getTtb()+",";
 	}
 	public double tinhThue() {
 		vat=gia*10/100;
 		ttb=gia*5/100;
-		System.out.printf("Thue VAT cua xe may la: "+vat);
-		System.out.printf("\nThue truoc ba cua xe may la: "+ttb+"\n");
+		System.out.printf("Thue VAT cua xe may la: "+getVat());
+		System.out.printf("\nThue truoc ba cua xe may la: "+getTtb()+"\n");
 		return 0;
 	}
 }

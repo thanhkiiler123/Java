@@ -68,15 +68,15 @@ public class TaiKhoan {
 	public void nhap() {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Nhap so tai khoan: ");
-		sotk=Integer.parseInt(sc.nextLine());
+		setSoTK(Integer.parseInt(sc.nextLine()));
 		System.out.print("Nhap ho ten: ");
-		hoten=sc.nextLine();	
+		setHoTen(sc.nextLine());
 		System.out.print("Nhap so tien trong tai khoan: ");
-		tien=sc.nextInt();
+		setTien(Double.parseDouble(sc.nextLine()));
 		}
 	public void xuat() {
 		System.out.printf("%-20s%-20s%-20s\n","SoTK","HoTen","SoTien");
-		System.out.printf("%-20s%-20s%-20s\n",sotk,hoten,tien);
+		System.out.printf("%-20s%-20s%-20s\n",getSoTK(),getHoTen(),getTien());
 	}
 	public String toString() {
 		return "TaiKhoan[SoTK: "+sotk+", HoTen: "+hoten+", So tien trong tai khoan: "+tien+"]";
@@ -84,7 +84,7 @@ public class TaiKhoan {
 	public void guiTienTK() {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Nhap so tien nap vao tai khoan: ");
-		tiennap=sc.nextDouble();
+		setTienNap(sc.nextDouble());
 		if (tiennap>0) {
 			System.out.print("\nSo tien trong tai khoan sau khi nap la: ");
 			tien1=tien+tiennap;
@@ -97,7 +97,7 @@ public class TaiKhoan {
 	public void rutTienTK() {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Nhap so tien rut: ");
-		tienrut=sc.nextDouble();
+		setTienRut(sc.nextDouble());
 		if (tienrut>tien1) {
 			System.out.println("Thao tac khong hop le. Xin moi nhap lai");
 		}

@@ -18,14 +18,14 @@ public class Employee extends Person{
 		Scanner sc = new Scanner(System.in);
 		super.nhap();
 		System.out.print("Nhap he so luong: ");
-		heSoLuong=Float.parseFloat(sc.nextLine());
+		setHeSoLuong(Float.parseFloat(sc.nextLine()));
 	}
 	public float tinhLuong() {
 		return heSoLuong*1500000;
 	}
 	public void xuat() {
 		super.xuat();
-		System.out.printf("\nHe So Luong: " + heSoLuong+"\n");
+		System.out.printf("\nHe So Luong: " + getHeSoLuong()+"\n");
 		System.out.printf("Tong luong: "+tinhLuong()+"\n");
 	}
 	public String toString() {

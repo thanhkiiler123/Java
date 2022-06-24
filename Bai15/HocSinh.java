@@ -20,15 +20,15 @@ public class HocSinh extends Nguoi implements IHoatDong, Serializable{
 		super.nhap();
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Nhap ten lop: ");
-		tenlop=sc.nextLine();
+		setTenLop(sc.nextLine());
 	}
 	@Override
 	public void xuat() {
 		super.xuat();
-		System.out.print("Ten lop: "+tenlop+"\n");
+		System.out.print("Ten lop: "+getTenLop()+"\n");
 	}
 	public String toString() {
-		return super.toString()+"Ten lop: "+tenlop+".";
+		return super.toString()+"Ten lop: "+getTenLop()+".";
 	}
 	@Override
 	public String gioiThieu() {

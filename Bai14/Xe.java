@@ -38,19 +38,19 @@ public abstract class Xe {
 	public void nhap() {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("\nNhap ten xe: ");
-		tenxe=sc.nextLine();
+		setTenXe(sc.nextLine());
 		System.out.print("Nhap hang san xuat: ");
-		hangsx=sc.nextLine();
+		setHangSX(sc.nextLine());
 		System.out.print("Nhap nam san xuat: ");
-		namsx=sc.nextInt();
+		setNamSX(sc.nextInt());
 		System.out.print("Nhap gia xe: ");
-		gia=sc.nextInt();
+		setGia(sc.nextInt());
 	}
 	public void xuat() {
 		System.out.printf("%-20s%-20s%-20s%-20s\n","Ten xe","Hang san xuat","Nam san xuat","Gia xe");
-		System.out.printf("%-20s%-20s%-20s%-20s\n",tenxe,hangsx,namsx,gia);
+		System.out.printf("%-20s%-20s%-20s%-20s\n",getTenXe(),getHangSX(),getNamSX(),getGia());
 	}
 	public String toString() {
-		return "Xe(Ten: "+tenxe+", Hang san xuat: "+hangsx+", Nam san xuat: "+namsx+", Gia: "+gia+",";
+		return "Xe(Ten: "+getTenXe()+", Hang san xuat: "+getHangSX()+", Nam san xuat: "+getNamSX()+", Gia: "+getGia()+",";
 	}
 }

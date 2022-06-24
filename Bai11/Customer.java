@@ -26,16 +26,16 @@ public class Customer extends Person{
 		Scanner sc = new Scanner(System.in);
 		super.nhap();
 		System.out.print("Nhap ten cong ty: ");
-		tencty=sc.nextLine();
+		setTencty(sc.nextLine());
 		System.out.print("Nhap tri gia hoa don: ");
-		tghd=sc.nextFloat();
+		setTghd(sc.nextFloat());
 	}
 	public void xuat() {
 		super.xuat();
-		System.out.println("\nTen cong ty: "+tencty);
-		System.out.println("Gia tri hoa don: "+tghd);
+		System.out.println("\nTen cong ty: "+getTencty());
+		System.out.println("Gia tri hoa don: "+getTghd());
 	}
 	public String toString() {
-		return "Ten cong ty: "+tencty+", gia tri hoa don: "+tghd+".";
+		return "Ten cong ty: "+getTencty()+", gia tri hoa don: "+getTghd()+".";
 	}
 }

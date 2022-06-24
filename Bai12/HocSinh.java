@@ -18,13 +18,13 @@ public class HocSinh extends Nguoi{
 		super.nhap();
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Nhap lop: ");
-		lop=sc.nextLine();
+		setLop(sc.nextLine());
 	}
 	public void xuat() {
 		super.xuat();
-		System.out.printf("\nLop: "+lop+"\n");
+		System.out.printf("\nLop: "+getLop()+"\n");
 	}
 	public String toString() {
-		return super.toString() +"Lop: "+lop+".";
+		return super.toString() +"Lop: "+getLop()+".";
 	}
 }

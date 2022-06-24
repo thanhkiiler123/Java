@@ -26,17 +26,17 @@ public class GiangVien extends CanBo implements iCanBo {
 		super.nhap();
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Nhap muc phu cap: ");
-		pc = Double.parseDouble(sc.nextLine());
+		setPC(Double.parseDouble(sc.nextLine()));
 		System.out.print("Nhap ten khoa: ");
-		khoa = sc.nextLine();
+		setKhoa(sc.nextLine());
 	}
 	public void xuat() {
 		System.out.printf("%-20s%-20s%-20s%-20s%-20s\n","Ho Ten","Tuoi","He So Luong","Phu cap","Khoa");
 		super.xuat();
-		System.out.printf("%-20s%-20s\n",pc,khoa);
+		System.out.printf("%-20s%-20s\n",getPC(),getKhoa());
 	}
 	public String toString() {
-		return super.toString()+"Khoa: "+khoa+", phu cap: "+pc+".";
+		return super.toString()+"Khoa: "+getKhoa()+", phu cap: "+getPC()+".";
 	}
 	@Override
 	public double tinhLuong() {

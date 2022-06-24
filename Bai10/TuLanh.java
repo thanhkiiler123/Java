@@ -48,22 +48,22 @@ public class TuLanh extends  MatHang{
 		 super.nhap();
 		 Scanner sc = new Scanner(System.in);
 		 System.out.print("Dung tich tu lanh: ");
-		 dungTich = Integer.parseInt(sc.nextLine());
+		 setDungTich(Integer.parseInt(sc.nextLine()));
 		 System.out.print("Mau sac tu lanh: ");
-		 mauSac=sc.nextLine();
+		 setMauSac(sc.nextLine());
 		 System.out.print("Hang san xuat: ");
-		 hangSX=sc.nextLine();
+		 setHangSX(sc.nextLine());
 		 System.out.print("So luong: ");
-		 soLuong=Integer.parseInt(sc.nextLine());
+		 setSoLuong(Integer.parseInt(sc.nextLine()));
 		 System.out.print("Don gia: ");
-		 donGia=sc.nextFloat();
+		 setDonGia(sc.nextFloat());
 		 }
 	 public void xuat() {
 		 super.xuat();
-		 System.out.printf("%-20s%-20s%-20s%-20s%-20s\n",dungTich,mauSac,hangSX,soLuong,donGia);
+		 System.out.printf("%-20s%-20s%-20s%-20s%-20s\n",getDungTich(),getMauSac(),getHangSX(),getSoLuong(),getDonGia());
 	 }
 	 public String toString() {
-		 return "Tu Lanh("+super.toString()+"Dung tich: "+dungTich+", Mau sac: "+mauSac+", Hang san xuat: "+hangSX+", So luong: "+soLuong+", Don gia: "+donGia+")";
+		 return "Tu Lanh("+super.toString()+"Dung tich: "+getDungTich()+", Mau sac: "+getMauSac()+", Hang san xuat: "+getHangSX()+", So luong: "+getSoLuong()+", Don gia: "+getDonGia()+")";
 	 }
 	 public double thanhTien() {
 		 return soLuong*donGia;
